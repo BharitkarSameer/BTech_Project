@@ -1,0 +1,30 @@
+{
+  "features": [
+    "N",
+    "P",
+    "K",
+    "temperature",
+    "humidity",
+    "ph",
+    "rainfall"
+  ],
+  "classes": [
+    "bajra",
+    "chickpea",
+    "cotton",
+    "grapes",
+    "groundnut",
+    "jowar",
+    "maize",
+    "onion",
+    "rice",
+    "soybean",
+    "sugarcane",
+    "tomato",
+    "wheat"
+  ],
+  "accuracy": 0.7478632478632479,
+  "trained_on": "2026-09-22T12:39:16.253769Z",
+  "n_rows": 2340,
+  "algorithm": "RandomForestClassifier"
+}

@@ -1,0 +1,63 @@
+{
+  "features": [
+    "crop_id",
+    "season_id",
+    "year",
+    "ndvi_mean",
+    "ndvi_max",
+    "ndvi_p90",
+    "evi_mean",
+    "ndwi_mean",
+    "scene_count",
+    "rainfall_mm",
+    "temperature_mean_c",
+    "avg_tmax_c",
+    "avg_tmin_c",
+    "humidity_mean_pct",
+    "ph",
+    "clay_pct",
+    "soc"
+  ],
+  "algorithm": "LGBMRegressor",
+  "holdout_year": 2023,
+  "mae": 1400.146830060069,
+  "rmse": 2966.9008619501064,
+  "r2": 0.9701508411860564,
+  "global_residual_std": 1294.1273609464238,
+  "residual_std": {
+    "bajra": 505.62135330702426,
+    "chickpea": 361.5754831465113,
+    "cotton": 523.6243709545404,
+    "grapes": 927.4519705605769,
+    "groundnut": 603.3195844154028,
+    "jowar": 520.5825661354119,
+    "maize": 553.192114678272,
+    "onion": 885.953642040072,
+    "rice": 561.8135383896876,
+    "soybean": 656.5215201702163,
+    "sugarcane": 4449.359731649693,
+    "tomato": 903.8857185572682,
+    "wheat": 485.6856195619652
+  },
+  "crop_map": {
+    "bajra": 0,
+    "chickpea": 1,
+    "cotton": 2,
+    "grapes": 3,
+    "groundnut": 4,
+    "jowar": 5,
+    "maize": 6,
+    "onion": 7,
+    "rice": 8,
+    "soybean": 9,
+    "sugarcane": 10,
+    "tomato": 11,
+    "wheat": 12
+  },
+  "season_map": {
+    "Kharif": 0,
+    "Rabi": 1
+  },
+  "trained_on": "2026-09-22T13:38:08.804370+00:00",
+  "n_rows": 1792
+}
